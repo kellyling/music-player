@@ -1,0 +1,26 @@
+{
+  "name": "music-server",
+  "version": "0.1.0",
+  "description": "A music player",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "express"
+  ],
+  "author": "kelly <kelly4582@sina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "xtemplate": "^4.6.1",
+    "xtpl": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
